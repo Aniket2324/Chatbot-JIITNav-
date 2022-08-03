@@ -1,0 +1,1401 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": [
+                "Hi", "Hii",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hi there, what can I do for you? I can help you with classrooms, labs and different locations in JIIT campus.",
+                "Hi there, I can help you with the classrooms, labs and different locations in the JIIT campus."
+            ]
+        },
+        {
+            "tag": "room",
+            "patterns": ["Classroom", "Labs", "Rooms", "I want to know classroom location"],
+            "responses": [
+                "Enter the classroom/lab name or no."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+            "responses": ["Happy to help!, Anything else?", "Any time!, Anything else?", "My pleasure, Anything else?"]
+        },
+        {
+            "tag": "G1",
+            "patterns": [
+                "G1",
+                "Where can I find G1",
+                "I want to go to G1",
+                "Tell me the location of classroom G1"
+            ],
+            "responses": [
+                "G1 is located in the ground floor of ABB-1"
+
+            ]
+        },
+
+        {
+            "tag": "G2",
+            "patterns": [
+                "G2",
+                "Where can i find G2",
+                "I want to go to G2",
+                "Tell me the location of classroom G2"
+            ],
+            "responses": [
+                "G2 is located in the ground floor of ABB-1"
+
+            ]
+        },
+
+        {
+            "tag": "G3",
+            "patterns": [
+                "G3",
+                "Where can i find G3",
+                "I want to go to G3",
+                "Tell me the location of classroom G3"
+            ],
+            "responses": [
+                "G3 is located in the ground floor of ABB-1"
+
+            ]
+        },
+
+
+        {
+            "tag": "G4",
+            "patterns": [
+                "G4",
+                "Where can I find G4",
+                "I want to go to G4",
+                "Tell me the location of classroom G4"
+            ],
+            "responses": [
+                "G4 is located in the ground floor of ABB-1"
+
+            ]
+        },
+
+        {
+            "tag": "G5",
+            "patterns": [
+                "G5",
+                "Where can i find G5",
+                "I want to go to G5",
+                "Tell me the location of classroom G5"
+            ],
+            "responses": [
+                "G5 is located in the ground floor of ABB-1"
+
+            ]
+        },
+
+        {
+            "tag": "G6",
+            "patterns": [
+                "G6",
+                "Where can i find G6",
+                "I want to go to G6",
+                "Tell me the location of classroom G6"
+            ],
+            "responses": [
+                "G6 is located in the ground floor of ABB-1"
+
+            ]
+        },
+
+        {
+            "tag": "G7",
+            "patterns": [
+                "G7",
+                "Where can I find G7",
+                "I want to go to G7",
+                "Tell me the location of classroom G7"
+            ],
+            "responses": [
+                "G7 is located in the ground floor of ABB-1"
+
+            ]
+        },
+
+        {
+            "tag": "G8",
+            "patterns": [
+                "G8",
+                "Where can i find G8",
+                "I want to go to G8",
+                "Tell me the location of classroom G8"
+            ],
+            "responses": [
+                "G8 is located in the ground floor of ABB-1"
+
+            ]
+        },
+
+        {
+            "tag": "G9",
+            "patterns": [
+                "G9",
+                "Where can i find G9",
+                "I want to go to G9",
+                "Tell me the location of classroom G9"
+            ],
+            "responses": [
+                "G9 is located in the ground floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "G10",
+            "patterns": [
+                "G10",
+                "Where can I find G10",
+                "I want to go to G10",
+                "Tell me the location of classroom G10"
+            ],
+            "responses": [
+                "G10 is located in the ground floor of ABB-2"
+
+            ]
+        },
+
+        {
+            "tag": "G11",
+            "patterns": [
+                "G11",
+                "Where can i find G11",
+                "I want to go to G11",
+                "Tell me the location of classroom G11"
+            ],
+            "responses": [
+                "G11 is located in the ground floor of ABB-2"
+
+            ]
+        },
+
+        {
+            "tag": "G12",
+            "patterns": [
+                "G12",
+                "Where can i find G12",
+                "I want to go to G12",
+                "Tell me the location of classroom G12"
+            ],
+            "responses": [
+                "G12 is located in the ground floor of ABB-2"
+
+            ]
+        },
+        {
+            "tag": "G13",
+            "patterns": [
+                "G13",
+                "Where can i find G13",
+                "I want to go to G13",
+                "Tell me the location of classroom G13"
+            ],
+            "responses": [
+                "G13 is located in the ground floor of ABB-2"
+
+            ]
+        },
+
+        {
+            "tag": "Auditorium",
+            "patterns": [
+                "Auditorium",
+                "Where can i find Auditorium",
+                "I want to go to Auditorium",
+                "Tell me the location of Auditorium"
+            ],
+            "responses": [
+                "Auditorium is located in the ground floor of ABB-2"
+
+            ]
+        },
+
+        {
+            "tag": "LT-1",
+            "patterns": [
+                "LT1",
+                "Where can I find LT-1",
+                "I want to go to LT1",
+                "Tell me the location of LT-1"
+            ],
+            "responses": [
+                "LT-1 is located in the ground floor of ABB-1"
+
+            ]
+        },
+
+        {
+            "tag": "LT-2",
+            "patterns": [
+                "LT2",
+                "Where can i find LT-2",
+                "I want to go to LT2",
+                "Tell me the location of LT-2"
+            ],
+            "responses": [
+                "LT-2 is located in the ground floor of ABB-1"
+
+            ]
+        },
+
+        {
+            "tag": "LT-3",
+            "patterns": [
+                "LT3",
+                "Where can i find LT-3",
+                "I want to go to LT3",
+                "Tell me the location of LT-3"
+            ],
+            "responses": [
+                "LT-3 is located in the ground floor of ABB-1"
+
+            ]
+        },
+
+
+        {
+            "tag": "LT-4",
+            "patterns": [
+                "LT4",
+                "Where can I find LT-4",
+                "I want to go to LT4",
+                "Tell me the location of LT-4"
+            ],
+            "responses": [
+                "LT-4 is located in the ground floor of ABB-2"
+
+            ]
+        },
+
+        {
+            "tag": "LT-5",
+            "patterns": [
+                "LT5",
+                "Where can i find LT-5",
+                "I want to go to LT5",
+                "Tell me the location of LT-5"
+            ],
+            "responses": [
+                "LT-5 is located in the ground floor of ABB-2"
+
+            ]
+        },
+
+        {
+            "tag": "F1",
+            "patterns": [
+                "F1",
+                "Where can I find F1",
+                "I want to go to F1",
+                "Tell me the location of classroom F1"
+            ],
+            "responses": [
+                "F1 is located in the first floor of ABB-1"
+
+            ]
+        },
+
+        {
+            "tag": "F2",
+            "patterns": [
+                "F2",
+                "Where can i find F2",
+                "I want to go to F2",
+                "Tell me the location of classroom F2"
+            ],
+            "responses": [
+                "F2 is located in the first floor of ABB-1"
+
+            ]
+        },
+
+        {
+            "tag": "F3",
+            "patterns": [
+                "F3",
+                "Where can i find F3",
+                "I want to go to F3",
+                "Tell me the location of classroom F3"
+            ],
+            "responses": [
+                "F3 is located in the first floor of ABB-2"
+
+            ]
+        },
+        {
+            "tag": "F4",
+            "patterns": [
+                "F4",
+                "Where can I find F4",
+                "I want to go to F4",
+                "Tell me the location of classroom F4"
+            ],
+            "responses": [
+                "F4 is located in the first floor of ABB-2"
+
+            ]
+        },
+
+        {
+            "tag": "F5",
+            "patterns": [
+                "F5",
+                "Where can I find F5",
+                "I want to go to F5",
+                "Tell me the location of classroom F5"
+            ],
+            "responses": [
+                "F5 is located in the first floor of ABB-2"
+
+            ]
+        },
+
+        {
+            "tag": "F6",
+            "patterns": [
+                "F6",
+                "Where can i find F6",
+                "I want to go to F6",
+                "Tell me the location of classroom F6"
+            ],
+            "responses": [
+                "F6 is located in the first floor of ABB-2"
+
+            ]
+        },
+
+        {
+            "tag": "F7",
+            "patterns": [
+                "F7",
+                "Where can I find F7",
+                "I want to go to F7",
+                "Tell me the location of classroom F7"
+            ],
+            "responses": [
+                "F7 is located in the first floor of ABB-2"
+
+            ]
+        },
+
+        {
+            "tag": "F8",
+            "patterns": [
+                "F8",
+                "Where can i find F8",
+                "I want to go to F8",
+                "Tell me the location of classroom F8"
+            ],
+            "responses": [
+                "F8 is located in the first floor of ABB-2"
+
+            ]
+        },
+
+        {
+            "tag": "F9",
+            "patterns": [
+                "Where can i find F9",
+                "I want to go to F9",
+                "Tell me the location of classroom F9"
+            ],
+            "responses": [
+                "F9 is located in the first floor of ABB-2"
+
+            ]
+        },
+
+
+        {
+            "tag": "F10",
+            "patterns": [
+                "F10",
+                "Where can I find F10",
+                "I want to go to F10",
+                "Tell me the location of classroom F10"
+            ],
+            "responses": [
+                "F10 is located in the first floor of ABB-2"
+
+            ]
+        },
+
+        {
+            "tag": "TS-1",
+            "patterns": [
+                "TS1",
+                "Where can I find TS-1",
+                "I want to go to TS1",
+                "Tell me the location of classroom TS-1"
+            ],
+            "responses": [
+                "TS-1 is located in the second floor of ABB-1"
+
+            ]
+        },
+
+        {
+            "tag": "TS-2",
+            "patterns": [
+                "TS2",
+                "I want to go to TS2",
+                "Where can I find TS-2",
+                "Tell me the location of classroom TS-2"
+            ],
+            "responses": [
+                "TS-2 is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "TS-3",
+            "patterns": [
+                "TS3",
+                "Where can I find TS-3",
+                "I want to go to TS3",
+                "Tell me the location of classroom TS-3"
+            ],
+            "responses": [
+                "TS-3 is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "TS-4",
+            "patterns": [
+                "TS4",
+                "Where can I find TS-4",
+                "I want to go to TS4",
+                "Tell me the location of classroom TS-4"
+            ],
+            "responses": [
+                "TS-4 is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "TS-5",
+            "patterns": [
+                "TS5",
+                "Where can I find TS-5",
+                "I want to go to TS5",
+                "Tell me the location of classroom TS-5"
+            ],
+            "responses": [
+                "TS-5 is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "TS-6",
+            "patterns": [
+                "TS6",
+                "Where can I find TS-6",
+                "I want to go to TS6",
+                "Tell me the location of classroom TS-6"
+            ],
+            "responses": [
+                "TS-6 is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "TS-7",
+            "patterns": [
+                "TS7",
+                "Where can I find TS-7",
+                "I want to go to TS7",
+                "Tell me the location of classroom TS-7"
+            ],
+            "responses": [
+                "TS-7 is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "TS-8",
+            "patterns": [
+                "TS8",
+                "Where can I find TS-8",
+                "I want to go to TS8",
+                "Tell me the location of classroom TS-8"
+            ],
+            "responses": [
+                "TS-8 is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "TS-9",
+            "patterns": [
+                "TS9",
+                "Where can I find TS-9",
+                "I want to go to TS9",
+                "Tell me the location of classroom TS-9"
+            ],
+            "responses": [
+                "TS-9 is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "TS-10",
+            "patterns": [
+                "TS10",
+                "Where can I find TS-10",
+                "I want to go to TS10",
+                "Tell me the location of classroom TS-10"
+            ],
+            "responses": [
+                "TS-10 is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "TS-11",
+            "patterns": [
+                "TS11",
+                "Where can I find TS-11",
+                "I want to go to TS11",
+                "Tell me the location of classroom TS-11"
+            ],
+            "responses": [
+                "TS-11 is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "TS-12",
+            "patterns": [
+                "TS12",
+                "Where can I find TS-12",
+                "I want to go to TS12",
+                "Tell me the location of classroom TS-12"
+            ],
+            "responses": [
+                "TS-12 is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "TS-13",
+            "patterns": [
+                "TS13",
+                "Where can I find TS-13",
+                "I want to go to TS13",
+                "Tell me the location of classroom TS-13"
+            ],
+            "responses": [
+                "TS-13 is located in the second floor of ABB-2"
+
+            ]
+        },
+        {
+            "tag": "TS-14",
+            "patterns": [
+                "TS14",
+                "Where can I find TS-14",
+                "I want to go to TS14",
+                "Tell me the location of classroom TS-14"
+            ],
+            "responses": [
+                "TS-14 is located in the second floor of ABB-2"
+
+            ]
+        },
+        {
+            "tag": "TS-15",
+            "patterns": [
+                "TS15",
+                "Where can I find TS-15",
+                "I want to go to TS15",
+                "Tell me the location of classroom TS-15"
+            ],
+            "responses": [
+                "TS-15 is located in the second floor of ABB-2"
+
+            ]
+        },
+        {
+            "tag": "TS-16",
+            "patterns": [
+                "TS16",
+                "Where can I find TS-16",
+                "I want to go to TS16",
+                "Tell me the location of classroom TS-16"
+            ],
+            "responses": [
+                "TS-16 is located in the second floor of ABB-2"
+
+            ]
+        },
+        {
+            "tag": "TS-17",
+            "patterns": [
+                "TS17",
+                "Where can I find TS-17",
+                "I want to go to TS17",
+                "Tell me the location of classroom TS-17"
+            ],
+            "responses": [
+                "TS-17 is located in the second floor of ABB-2"
+
+            ]
+        },
+        {
+            "tag": "TS-18",
+            "patterns": [
+                "TS18",
+                "Where can I find TS-18",
+                "I want to go to TS18",
+                "Tell me the location of classroom TS-18"
+            ],
+            "responses": [
+                "TS-18 is located in the second floor of ABB-2"
+
+            ]
+        },
+        {
+            "tag": "TS-19",
+            "patterns": [
+                "TS19",
+                "Where can I find TS-19",
+                "I want to go to TS19",
+                "Tell me the location of classroom TS-19"
+            ],
+            "responses": [
+                "TS-19 is located in the second floor of ABB-2"
+
+            ]
+        },
+        {
+            "tag": "TS-20",
+            "patterns": [
+                "TS20",
+                "Where can I find TS-20",
+                "I want to go to TS20",
+                "Tell me the location of classroom TS-20"
+            ],
+            "responses": [
+                "TS-20 is located in the second floor of ABB-2"
+
+            ]
+        },
+        {
+            "tag": "CS-1",
+            "patterns": [
+                "CS-1",
+                "Where can I find CS-1",
+                "I want to go to CS1",
+                "Tell me the location of classroom CS-1"
+            ],
+            "responses": [
+                "CS-1 is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "CS-2",
+            "patterns": [
+                "CS2",
+                "Where can I find CS-2",
+                "I want to go to CS2",
+                "Tell me the location of classroom CS-2"
+            ],
+            "responses": [
+                "CS-2 is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "CS-3",
+            "patterns": [
+                "CS3",
+                "Where can I find CS-3",
+                "I want to go to CS3",
+                "Tell me the location of classroom CS-3"
+            ],
+            "responses": [
+                "CS-3 is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "CS-4",
+            "patterns": [
+                "CS4",
+                "Where can I find CS-4",
+                "I want to go to CS4",
+                "Tell me the location of classroom CS-4"
+            ],
+            "responses": [
+                "CS-4 is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "CS-5",
+            "patterns": [
+                "CS5",
+                "Where can I find CS-5",
+                "I want to go to CS5",
+                "Tell me the location of classroom CS-5"
+            ],
+            "responses": [
+                "CS-5 is located in the second floor of ABB-2"
+
+            ]
+        },
+        {
+            "tag": "CS-6",
+            "patterns": [
+                "CS6",
+                "Where can I find CS-6",
+                "I want to go to CS6",
+                "Tell me the location of classroom CS-6"
+            ],
+            "responses": [
+                "CS-6 is located in the second floor of ABB-2"
+
+            ]
+        },
+        {
+            "tag": "CS-7",
+            "patterns": [
+                "CS7",
+                "Where can I find CS-7",
+                "I want to go to CS7",
+                "Tell me the location of classroom CS-7"
+            ],
+            "responses": [
+                "CS-7 is located in the second floor of ABB-2"
+
+            ]
+        },
+        {
+            "tag": "CS-8",
+            "patterns": [
+                "CS8",
+                "Where can I find CS-8",
+                "I want to go to CS8",
+                "Tell me the location of classroom CS-8"
+            ],
+            "responses": [
+                "CS-8 is located in the second floor of ABB-2"
+
+            ]
+        },
+        {
+            "tag": "CS-9",
+            "patterns": [
+                "CS9",
+                "Where can I find CS-9",
+                "I want to go to CS9",
+                "Tell me the location of classroom CS-9"
+            ],
+            "responses": [
+                "CS-9 is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "CS-10",
+            "patterns": [
+                "CS10",
+                "Where can I find CS-10",
+                "I want to go to CS10",
+                "Tell me the location of classroom CS-10"
+            ],
+            "responses": [
+                "CS-10 is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "CS-11",
+            "patterns": [
+                "CS11",
+                "Where can I find CS-11",
+                "I want to go to CS11",
+                "Tell me the location of classroom CS-11"
+            ],
+            "responses": [
+                "CS-11 is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "CS-12",
+            "patterns": [
+                "CS12",
+                "Where can I find CS-12",
+                "I want to go to CS12",
+                "Tell me the location of classroom CS-12"
+            ],
+            "responses": [
+                "CS-12 is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "T&P Cell",
+            "patterns": [
+                "T&P Cell",
+                "Where can I find T&P Cell",
+                "I want to go to T&P Cell",
+                "Tell me the location of T&P Cell"
+            ],
+            "responses": [
+                "T&P Cell is located in the second floor of ABB-1"
+
+            ]
+        },
+
+        {
+            "tag": "EXECUTIVE ROOM-1",
+            "patterns": [
+                "EXECUTIVE ROOM1",
+                "Where can I find EXECUTIVE ROOM-1",
+                "I want to go to EXECUTIVE ROOM-1",
+                "Tell me the location of EXECUTIVE ROOM-1"
+            ],
+            "responses": [
+                "EXECUTIVE ROOM-1 is located in the second floor of ABB-2"
+
+            ]
+        },
+
+        {
+            "tag": "EXECUTIVE ROOM-2",
+            "patterns": [
+                "EXECUTIVE ROOM2",
+                "Where can I find EXECUTIVE ROOM-2",
+                "I want to go to EXECUTIVE ROOM-2",
+                "Tell me the location of EXECUTIVE ROOM-2"
+            ],
+            "responses": [
+                "EXECUTIVE ROOM-2 is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "Computer Lab-1",
+            "patterns": [
+                "CL1 Lab",
+                "Where can I find Computer Lab-1",
+                "I want to go to CL1",
+                "Tell me the location of Computer Lab-1"
+            ],
+            "responses": [
+                "CL-1 is located in the Underground-1 of ABB-3"
+
+            ]
+        },
+        {
+            "tag": "Computer Lab-2",
+            "patterns": [
+                "CL2 Lab",
+                "Where can I find Computer Lab-2",
+                "I want to go to CL2",
+                "Tell me the location of Computer Lab-2"
+            ],
+            "responses": [
+                "CL-2 is located in the Underground-1 of ABB-3"
+
+            ]
+        },
+        {
+            "tag": "Computer Lab-3",
+            "patterns": [
+                "CL3 Lab",
+                "Where can I find Computer Lab-3",
+                "I want to go to CL3",
+                "Tell me the location of Computer Lab-3"
+            ],
+            "responses": [
+                "CL-3 is located in the Underground-2 of ABB-3"
+
+            ]
+        },
+        {
+            "tag": "Computer Lab-4",
+            "patterns": [
+                "CL-4 Lab",
+                "Where can I find Computer Lab-4",
+                "I want to go to CL4",
+                "Tell me the location of Computer Lab-4"
+            ],
+            "responses": [
+                "CL-4 is located in the Underground-2 of ABB-3"
+
+            ]
+        },
+        {
+            "tag": "Multimedia Lab",
+            "patterns": [
+                "MML Lab", "mml",
+                "Where can I find Multimedia Lab",
+                "I want to go to Multimedia Lab",
+                "Tell me the location of Multimedia Lab"
+            ],
+            "responses": [
+                "MML is located in the second floor of ABB-1"
+
+            ]
+        },
+
+        {
+            "tag": "Centre for Performance modelling of computing",
+            "patterns": [
+                "CPMCS Lab",
+                "Where can I find CPMCS Lab",
+                "I want to go to CPMCS Lab",
+                "Tell me the location of CPMCS Lab"
+            ],
+            "responses": [
+                "CPMCS Lab is located in the Underground of ABB-3"
+
+            ]
+        },
+        {
+            "tag": "Physics Lab-1",
+            "patterns": [
+                "PL1 Lab",
+                "Where can I find Physics Lab-1",
+                "I want to go to PL1",
+                "Tell me the location of Physics Lab-1"
+            ],
+            "responses": [
+                "Physics Lab-1 is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "Physics Lab-2",
+            "patterns": [
+                "PL2 Lab",
+                "Where can I find Physics Lab-2",
+                "I want to go to PL2",
+                "Tell me the location of Physics Lab-2"
+            ],
+            "responses": [
+                "Physics Lab-2 is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "JBS PROJECT LAB",
+            "patterns": [
+                "JBSPL Lab",
+                "Where can I find JBS PROJECT LAB",
+                "Tell me the location of JBS PROJECT LAB"
+            ],
+            "responses": [
+                "JBS PROJECT LAB is located in the ground floor of ABB-2"
+
+            ]
+        },
+        {
+            "tag": "BASIC ELECTRONIC LAB-1",
+            "patterns": [
+                "BEL1 Lab",
+                "Where can I find BASIC ELECTRONIC LAB-1",
+                "Tell me the location of BASIC ELECTRONIC LAB-1"
+            ],
+            "responses": [
+                "BASIC ELECTRONIC LAB-1 is located in the first floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "BASIC ELECTRONIC LAB-2",
+            "patterns": [
+                "BEL2 Lab",
+                "Where can I find BASIC ELECTRONIC LAB-2",
+                "Tell me the location of BASIC ELECTRONIC LAB-2"
+            ],
+            "responses": [
+                "BASIC ELECTRONIC LAB-2 is located in the first floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "Electrical Machines Lab",
+            "patterns": [
+                "EML Lab",
+                "Where can I find BASIC Electrical Machines Lab",
+                "Tell me the location of Electrical Machines Lab"
+            ],
+            "responses": [
+                "Electrical Machines Lab is located in the first floor of ABB-1"
+
+            ]
+
+        },
+        {
+            "tag": "VLSI Design Lab",
+            "patterns": [
+                "VHDL Lab",
+                "Where can I find VLSI Design Lab",
+                "Tell me the location of VLSI Design Lab"
+            ],
+            "responses": [
+                "VLSI Design Lab is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "Communication System Lab",
+            "patterns": [
+                "CML Lab",
+                "Where can I find Communication System Lab",
+                "Tell me the location of Communication System Lab"
+            ],
+            "responses": [
+                "Communication System Lab is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "Information Security Lab",
+            "patterns": [
+                "INS Lab",
+                "Where can I find Information Security Lab",
+                "Tell me the location of Information Security Lab"
+            ],
+            "responses": [
+                "Information Security Lab is located in the Underground-2 of ABB-3"
+
+            ]
+        },
+        {
+            "tag": "Biochemistry Lab",
+            "patterns": [
+                "BCL Lab",
+                "Where can I find Biochemistry Lab",
+                "Tell me the location of Biochemistry Lab"
+            ],
+            "responses": [
+                "Biochemistry Lab is located in the first floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "Biotech Lab-I",
+            "patterns": [
+                "BT1 Lab",
+                "Where can I find Biotech Lab-I",
+                "Tell me the location of Biotech Lab-I"
+            ],
+            "responses": [
+                "Biotech Lab-I is located in the first floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "Plant Tissue Culture Lab",
+            "patterns": [
+                "PTCL Lab",
+                "Where can I find Plant Tissue Culture Lab",
+                "Tell me the location of Plant Tissue Culture Lab"
+            ],
+            "responses": [
+                "Plant Tissue Culture Lab is located in the first floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "Biotech Lab-II",
+            "patterns": [
+                "BT2 Lab",
+                "Where can I find Biotech Lab-II",
+                "Tell me the location of Biotech Lab-II"
+            ],
+            "responses": [
+                "Biotech Lab-II is located in the first floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "Biotech Lab-III ",
+            "patterns": [
+                "BT3 lab",
+                "Where can I find Biotech Lab-III ",
+                "Tell me the location of Biotech Lab-III "
+            ],
+            "responses": [
+                "Biotech Lab-III  is located in the first floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "Material Science and Engineering Lab",
+            "patterns": [
+                "MSEL Lab",
+                "Where can I find Material Science and Engineering Lab",
+                "Tell me the location of Material Science and Engineering Lab"
+            ],
+            "responses": [
+                "Material Science and Engineering Lab is located in the ground floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "Advanced Communication Lab",
+            "patterns": [
+                "ACL Lab",
+                "Where can I find Advanced Communication Lab",
+                "Tell me the location of Advanced Communication Lab"
+            ],
+            "responses": [
+                "Advanced Communication Lab is located in the second floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "Signal Processing Lab",
+            "patterns": [
+                "SPL Lab",
+                "Where can I find Signal Processing Lab",
+                "Tell me the location of Signal Processing Lab"
+            ],
+            "responses": [
+                "Signal Processing Lab is located in the third floor of ABB-2"
+
+            ]
+        },
+        {
+            "tag": "English as Second Language Lab",
+            "patterns": [
+                "ESL Lab",
+                "Where can I find English as Second Language Lab",
+                "Tell me the location of English as Second Language Lab"
+            ],
+            "responses": [
+                "English as Second Language Lab is located in the ground floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "EC Design and simulation lab",
+            "patterns": [
+                "PGL1 Lab",
+                "Where can I find EC Design and simulation lab",
+                "Tell me the location of EC Design and simulation lab"
+            ],
+            "responses": [
+                "EC Design and simulation lab is located in the third floor of ABB-2"
+
+            ]
+        },
+        {
+            "tag": "VLSI Design and Simulation lab",
+            "patterns": [
+                "PGL2 Lab",
+                "Where can I find VLSI Design and Simulation lab",
+                "Tell me the location of VLSI Design and Simulation lab"
+            ],
+            "responses": [
+                "VLSI Design and Simulation lab is located in the third floor of ABB-2"
+
+            ]
+        },
+        {
+            "tag": "Bioinformatics Lab",
+            "patterns": [
+                "BIOINFO Lab",
+                "Where can I find Bioinformatics Lab",
+                "Tell me the location of Bioinformatics Lab"
+            ],
+            "responses": [
+                "Bioinformatics Lab is located in the ground floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "Biotech Lab-IV",
+            "patterns": [
+                "BT4 Lab",
+                "Where can I find Biotech Lab-IV",
+                "Tell me the location of Biotech Lab-IV"
+            ],
+            "responses": [
+                "Biotech Lab-IV is located in the first floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "Engineering workshop",
+            "patterns": [
+                "EW Lab", "Workshop Lab",
+                "Where can I find Engineering workshop",
+                "Tell me the location of Engineering workshop"
+            ],
+            "responses": [
+                "Engineering workshop is located in the worskshop and parking below OAT."
+
+            ]
+        },
+        {
+            "tag": "Internet of Things Lab",
+            "patterns": [
+                "IOT", "IOT Lab",
+                "Where can I find Internet of Things Lab",
+                "Tell me the location of Internet of Things Lab"
+            ],
+            "responses": [
+                "Internet of Things Lab is located in the underground of ABB-3"
+
+            ]
+        },
+        {
+            "tag": "Engineering Drawing and Design",
+            "patterns": [
+                "EDD", "EDD lab",
+                "Where can I find Engineering Drawing and Design",
+                "Tell me the location of Engineering Drawing and Design"
+            ],
+            "responses": [
+                "Engineering Drawing and Design is located below A to Z."
+
+            ]
+        },
+        {
+            "tag": "FF1",
+            "patterns": [
+                "Where can I find FF1",
+                "I want to go to FF1",
+                "Tell me the location of classroom FF1"
+            ],
+            "responses": [
+                "FF1 is located in the first floor of ABB-1"
+
+            ]
+        },
+
+        {
+            "tag": "FF2",
+            "patterns": [
+                "FF2",
+                "Where can i find FF2",
+                "Where can I find FF2",
+                "Tell me the location of classroom FF2"
+            ],
+            "responses": [
+                "FF2 is located in the first floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "FF3",
+            "patterns": [
+                "FF3",
+                "Where can i find FF3",
+                "Where can I find FF3",
+                "Tell me the location of classroom FF3"
+            ],
+            "responses": [
+                "FF3 is located in the first floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "FF4",
+            "patterns": [
+                "FF4",
+                "Where can I find FF4",
+                "Where can I find FF4",
+                "Tell me the location of classroom FF4"
+            ],
+            "responses": [
+                "FF4 is located in the first floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "FF5",
+            "patterns": [
+                "FF5",
+                "Where can I find FF5",
+                "Where can I find FF5",
+                "Tell me the location of classroom FF5"
+            ],
+            "responses": [
+                "FF5 is located in the first floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "FF6",
+            "patterns": [
+                "FF6",
+                "Where can I find FF6",
+                "Where can I find FF6",
+                "Tell me the location of classroom FF6"
+            ],
+            "responses": [
+                "FF6 is located in the first floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "FF7",
+            "patterns": [
+                "FF7",
+                "Where can I find FF7",
+                "Where can I find FF7",
+                "Tell me the location of classroom FF7"
+            ],
+            "responses": [
+                "FF7 is located in the first floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "FF8",
+            "patterns": [
+                "FF8",
+                "Where can i find FF8",
+                "Where can I find FF8",
+                "Tell me the location of classroom FF8"
+            ],
+            "responses": [
+                "FF8 is located in the first floor of ABB-1"
+
+            ]
+        },
+        {
+            "tag": "FF9",
+            "patterns": [
+                "FF9",
+                "Where can i find FF9",
+                "Where can I find FF9",
+                "Tell me the location of classroom FF9"
+            ],
+            "responses": [
+                "FF9 is located in the first floor of ABB-1"
+
+            ]
+        }
+    ]
+}
